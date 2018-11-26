@@ -1,0 +1,14 @@
+////////////////////////////////////////////////
+///////////// TESTS CONFIGURATIONS /////////////
+////////////////////////////////////////////////
+
+CONFIG={
+// BASE CONGIG
+SITE_URL_MOCK: '',
+SITE_URL: 'http://BP4-W-055:5000',
+
+// USERS AND ROLES
+USER: 'nombreUsuario',
+PASS: 'password',
+
+}

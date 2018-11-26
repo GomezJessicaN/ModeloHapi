@@ -1,0 +1,86 @@
+[
+  {
+    "description": "A fin de saber como llegué al saldo actual en mi cuenta\nSiendo un dueño de la cuenta\nYo quiero consultar movimientos con filtros ",
+    "keyword": "Característica",
+    "name": "Lectura del movimiento",
+    "line": 2,
+    "id": "lectura-del-movimiento",
+    "tags": [],
+    "uri": "features\\Movimiento-Lectura.feature",
+    "elements": [
+      {
+        "id": "lectura-del-movimiento;lectura-de-movimiento-por-filtros-idcuenta,-fechadesde-y-fechahasta",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "lectura de movimiento por filtros idcuenta, fechadesde y fechahasta",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que tengo el periodo que quiero ver",
+            "match": {
+              "location": "features\\step_definitions\\Movimiento-Lectura.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Y ",
+            "line": 10,
+            "name": "el id de mi cuenta",
+            "match": {
+              "location": "features\\step_definitions\\Movimiento-Lectura.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Cuando ",
+            "line": 11,
+            "name": "completo los campos fechadesde, fechahasta y idcuenta correctos",
+            "match": {
+              "location": "features\\step_definitions\\Movimiento-Lectura.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entonces ",
+            "line": 12,
+            "name": "obtengo todos los movimientos realizados entre las fechas ingresadas mostrando los datos de idmovimiento, monto, descripción, idcuenta, fecha",
+            "match": {
+              "location": "features\\step_definitions\\Movimiento-Lectura.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3967000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
